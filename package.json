@@ -10,7 +10,5 @@
   "dependencies": {
     "astro": "^4.0.0"
   },
-  "devDependencies": {
-    "@astrojs/node": "^6.0.0"
-  }
+  
 }
