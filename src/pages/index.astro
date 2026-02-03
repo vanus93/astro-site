@@ -1,0 +1,33 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="Home">
+  <Hero title="Welcome to Astro" subtitle="Fast, lightweight static site generator" />
+  
+  <h2>Why Astro?</h2>
+  <ul style="margin-top: 1.5rem; line-height: 2;">
+    <li>⚡ Zero JavaScript by default</li>
+    <li>📦 Smaller bundle sizes</li>
+    <li>🚀 Fast deployment to GitHub Pages</li>
+    <li>🎨 Support for any framework (React, Vue, Svelte, etc.)</li>
+    <li>📝 Markdown support for content</li>
+  </ul>
+
+  <style>
+    h2 {
+      margin: 2rem 0 1rem 0;
+      font-size: 1.8rem;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    li {
+      padding: 0.5rem 0;
+      font-size: 1.1rem;
+    }
+  </style>
+</BaseLayout>
